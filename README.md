@@ -1,4 +1,4 @@
-1- This code is used to read and map multip NO2 Tropospheric products. 
+1- This code is used to read and map multiple NO2 Tropospheric products. 
 2- The code is designed to be educational and applicable.
 3- The code is designed of multi questions, and gives the users the optional way of process and save any of the product within the folder.
 4- This code is written in python 3.6 and also has been tested in Anaconda python 3.7. 
