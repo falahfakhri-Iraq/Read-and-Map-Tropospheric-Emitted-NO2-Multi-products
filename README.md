@@ -36,7 +36,7 @@ else:
 user_input_dir = input('\nPlease enter your directory path\n\nDirectory path:\n')
 product_path = os.path.join('product_path', user_input_dir)  
 
-# lOOK FOR NO2 products in target directory
+# LOOK FOR NO2 products in target directory
 
 try:
     
