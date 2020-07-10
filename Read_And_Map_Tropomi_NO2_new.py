@@ -75,7 +75,7 @@ for FILE in input_files_OFFL:
         read_product = Dataset(FILE, mode='r')
         print(read_product)
         
-        # Slice sentinel 5p to a 2D array using use the [0,:,:] code
+        # Slice sentinel 5p to a 2D array using the [0,:,:] code
         lons = read_product.groups['PRODUCT'].variables['longitude'][:][0,:,:]
         lats = read_product.groups['PRODUCT'].variables['latitude'][:][0,:,:]
         no2 = read_product.groups['PRODUCT'].variables['nitrogendioxide_tropospheric_column_precision'][0,:,:]
